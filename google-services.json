@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "430271226399",
+    "project_id": "aerial-bonfire-451914-s7",
+    "storage_bucket": "aerial-bonfire-451914-s7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430271226399:android:cb8854c19130122cb46b2a",
+        "android_client_info": {
+          "package_name": "com.example.Tasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430271226399-kloa73hr99moekugabl8dses8bqh20nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Tasks",
+            "certificate_hash": "d24f5d5d43e54ccb78795ac863bc00acf416318a"
+          }
+        },
+        {
+          "client_id": "430271226399-dgjgvvhfkuiam45emc11tee45ps5imce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ODaBIVwa6vYOAMIIU64hxgMkXvSNQs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430271226399-dgjgvvhfkuiam45emc11tee45ps5imce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
