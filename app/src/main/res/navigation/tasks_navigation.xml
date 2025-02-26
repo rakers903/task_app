@@ -5,16 +5,16 @@
     app:startDestination="@+id/tasks"
     android:id="@+id/tasks_navigation">
 
-    <fragment
-        android:id="@+id/login"
-        android:name="com.example.tasks.ui.LoginFragment"
-        android:label="@string/login"
-        tools:layout="@layout/fragment_login">
+<!--    <fragment-->
+<!--        android:id="@+id/login"-->
+<!--        android:name="com.example.tasks.ui.LoginFragment"-->
+<!--        android:label="@string/login"-->
+<!--        tools:layout="@layout/fragment_login">-->
 
-        <action
-            android:id="@+id/action_login_to_tasks"
-            app:destination="@id/tasks" />
-    </fragment>
+<!--        <action-->
+<!--            android:id="@+id/action_login_to_tasks"-->
+<!--            app:destination="@id/tasks" />-->
+<!--    </fragment>-->
 
     <fragment
         android:id="@+id/tasks"
