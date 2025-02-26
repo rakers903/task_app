@@ -61,9 +61,12 @@ class AddTaskFragment : BaseFragment() {
             with(binding){
                 val title = if(titleEt.text.isNotEmpty()) titleEt.text.toString() else throw Exception("Title is empty")
                 val description = if(titleEt.text.isNotEmpty()) titleEt.text.toString() else throw Exception("Description is empty")
-                val day = dayEt.text.toString().toInt()
-                val month = monthEt.text.toString().toInt()
-                val year = yearEt.text.toString().toInt()
+//                val day = dayEt.text.toString().toInt()
+//                val month = monthEt.text.toString().toInt()
+//                val year = yearEt.text.toString().toInt()
+                val day = datePicker.dayOfMonth
+                val month = datePicker.month
+                val year = datePicker.year
                 val date = LocalDate.of(year,month,day)
                 Task(
                     title = title,
